@@ -1,13 +1,3 @@
-//
-//  Spinner.m
-//  
-// 
-//
-//  Created by Cameron on 2/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
-
 #import "Spinner.h"
 #import <QuartzCore/QuartzCore.h>
 
