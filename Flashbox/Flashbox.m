@@ -1,18 +1,18 @@
-#import "Spinner.h"
+#import "Flashbox.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation Spinner
-static Spinner *instance = nil;
+@implementation Flashbox
+static Flashbox *instance = nil;
 
-+ (Spinner*) instance {
++ (Flashbox*) instance {
 
     if (instance == nil) {
-         instance =  [[Spinner alloc] init];  
+         instance =  [[Flashbox alloc] init];  
     }
     return instance;
 }
 
-+(void) flashbox:(NSString*)message {
++(void) flashMessage:(NSString*)message {
     
     // customize properties as desired
     UIColor * _backgroundColor =   [UIColor colorWithWhite:0.0 alpha:.8];

@@ -1,7 +1,6 @@
-//
-//  Spinner.h
+//  Flashbox.h
 //  
-//  Spinner lets you easily add "Loading" screens with a spinner throughout your app.
+//  Flashbox lets you easily add "Loading" screens with a spinner throughout your app.
 //  
 //
 //  Created by Cameron on 2/12/12.
@@ -9,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Spinner : NSObject {
+@interface Flashbox : NSObject {
 
     UILabel *flashbox;                 // flashbox 
     Spinner *instance;
 }
 
-+(Spinner*) instance;   
++(Flashbox*) instance;   
 
 // Shows a temporary message box to display a message and then fade away immediately after
-+(void) flashbox:(NSString*)message;
++(void) flashMessage:(NSString*)message;
 
 @end
