@@ -1,15 +1,19 @@
 flashbox
 ========
 
-A super easy way to display custom status updates w/o using UIAlertView. 
+A super easy way to display custom status updates w/o Alert Views. 
 
 
 ## Usage
 
-- To create a brief message to display an update and then fade away...
+- Add the Flashbox folder to your project 
+- Import Spinner.h wherever you need flashboxes 
+- To create a flashbox, just call...
 
+  [Flashbox flashMessage:@"Foo"];
 
-  [Spinner flashbox:@"Foo"];
+A nice animated alert will appear on screen with your message and then
+fade away without a trace.
 
 ## Copyright
 
