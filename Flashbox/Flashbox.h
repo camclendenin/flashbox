@@ -11,7 +11,7 @@
 @interface Flashbox : NSObject {
 
     UILabel *flashbox;                 // flashbox 
-    Spinner *instance;
+    Flashbox *instance;
 }
 
 +(Flashbox*) instance;   
